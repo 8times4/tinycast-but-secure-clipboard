@@ -184,6 +184,9 @@ run clipboard-text-test    Tinycast/Features/Clipboard/Model/*.swift $Q \
                            Tinycast/Features/Clipboard/Service/ClipboardTextWorker.swift \
                            Tinycast/Platform/ProcessExit.swift
 run pasteboard-test        Tinycast/Platform/PasteboardFiles.swift \
+                           Tinycast/Features/Clipboard/Model/ClipboardSource.swift \
+                           Tinycast/Features/Clipboard/Model/ClipboardSourceHistory.swift \
+                           Tinycast/Features/Clipboard/Service/ClipboardSourceMonitor.swift \
                            Tinycast/Features/Clipboard/Model/ClipboardStore.swift \
                            Tinycast/Features/Clipboard/Model/ClipboardFilter.swift \
                            Tinycast/Features/Clipboard/Model/ClipboardFileKind.swift \
@@ -194,6 +197,9 @@ run pasteboard-test        Tinycast/Platform/PasteboardFiles.swift \
                            Tinycast/Features/Clipboard/Service/Paster.swift
 run index clipboard-file-performance \
                            Tinycast/Platform/PasteboardFiles.swift \
+                           Tinycast/Features/Clipboard/Model/ClipboardSource.swift \
+                           Tinycast/Features/Clipboard/Model/ClipboardSourceHistory.swift \
+                           Tinycast/Features/Clipboard/Service/ClipboardSourceMonitor.swift \
                            Tinycast/Features/Clipboard/Model/ClipboardStore.swift \
                            Tinycast/Features/Clipboard/Model/ClipboardFilter.swift \
                            Tinycast/Features/Clipboard/Model/ClipboardFileKind.swift \
@@ -201,6 +207,9 @@ run index clipboard-file-performance \
                            Tinycast/Features/Clipboard/Model/ColorFormat.swift \
                            Tinycast/Features/Clipboard/Model/ColorSpaces.swift \
                            Tinycast/Features/Clipboard/Service/ClipboardManager.swift
+run clipboard-source-test  Tinycast/Features/Clipboard/Model/ClipboardSource.swift \
+                           Tinycast/Features/Clipboard/Model/ClipboardSourceHistory.swift \
+                           Tinycast/Features/Clipboard/Service/ClipboardSourceMonitor.swift
 run emoji-test             Tinycast/Features/Emoji/Model/EmojiCatalog.swift \
                            Tinycast/Features/Emoji/Model/EmojiGridGeometry.swift \
                            Tinycast/Features/Emoji/Model/EmojiData.generated.swift
